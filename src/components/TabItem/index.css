@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.btn {
+  background-color: transparent;
+  border-width: 0px;
+  border-style: solid;
+
+  width: 110px;
+  font-size: 18px;
+  border-bottom-width: 2px;
+  padding-bottom: 10px;
+}
+.active-tab {
+  color: #2563eb;
+  border-color: #2563eb;
+}
+.not-active {
+  color: #7b8794;
+  border-color: #7b8794;
+}

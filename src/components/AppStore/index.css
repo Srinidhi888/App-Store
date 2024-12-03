@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.bg {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.head {
+  font-family: 'Bree Serif';
+  font-size: 45px;
+}
+.grp {
+  list-style-type: none;
+  display: flex;
+}
+.srch {
+  display: flex;
+  margin: 40px;
+  cursor: pointer;
+}
+.ima {
+  border-style: solid;
+  border-color: #7b8794;
+  border-width: 1px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 40px;
+  padding-top: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  border-left-width: 0px;
+  background-color: transparent;
+}
+
+.ipt {
+  border-style: solid;
+  border-color: #7b8794;
+  border-width: 1px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-left: 10px;
+  width: 400px;
+  height: 40px;
+  outline: none;
+  background-color: transparent;
+  border-right-width: 0px;
+}
+.grp1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+}
